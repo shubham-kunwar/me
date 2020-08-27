@@ -66,7 +66,7 @@ li a:hover{
 
         }
     li{
-        margin: 16px;
+        margin: 10px;
     }
     .heading{
         font-size:20px;
@@ -83,8 +83,8 @@ li a:hover{
         height: 10%;
     }
     .box{
-        width:100%;
-        margin: 0 auto;
+        width:80%;
+        margin-left: -8%;
     }
  }
 
