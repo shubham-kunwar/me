@@ -48,6 +48,7 @@ li a:hover{
     .heading{
         font-size:30px;
         left:35%;
+        Top:5%
     /*  */
     }      
     .detail{
@@ -62,18 +63,19 @@ li a:hover{
  }
  @media screen and (max-width:400px){
     li a{
-        font-size: 30%;
+        font-size: 90%;
 
         }
     .navbar{
         height: 50px;
     }
     li{
-        margin: 5px;
+        margin: 15px;
     }
     .heading{
         font-size:20px;
         left:25%;
+
     /*  */
     }      
     .detail{
@@ -119,7 +121,6 @@ img{
 
 .section{
     background-color: tomato;
-    height: 68%;
     text-align: center;
     width: 100%;
 }
