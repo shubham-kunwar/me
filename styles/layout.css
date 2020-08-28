@@ -41,7 +41,7 @@ li a:hover{
      color: rgb(60, 223, 174);
 }
 
- @media screen and (max-width:750px) and (min-width:400px){
+ @media screen and (max-width:900px) and (min-width:600px){
     li a{
         font-size: 107%;
         }
@@ -53,8 +53,9 @@ li a:hover{
     /*  */
     }      
     .detail{
-        width: 60%;
+        width: 100%;
         margin: 0 auto;
+        height: 800px;
     }
     img{
 
@@ -62,7 +63,7 @@ li a:hover{
         height: 180px;
     }
  }
- @media screen and (max-width:400px){
+ @media screen and (max-width:600px){
     li a{
         font-size: 90%;
 
@@ -75,23 +76,19 @@ li a:hover{
     }
     .heading{
        
-        font-size:20px;
-        left:25%;
+        font-size:30px;
+        left:30%;
 
     /*  */
     }      
     .detail{
         width: 100%;
         margin: 0 auto;
-    }
-    img{
-
-        width: 80%;
-        height: 10%;
+        height: 1900px;
     }
     .box{
         width:100%;
-        margin-left: -4%;
+        margin-left: 0 auto;
     }
  }
 
@@ -111,6 +108,7 @@ img{
     grid-column-gap: 0%;
     grid-row-gap: 2%;
     grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    
 }
 .box1{
     width:80%;
